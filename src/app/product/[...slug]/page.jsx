@@ -1,6 +1,5 @@
 import React from 'react'
-
-export default function DetailPage(params) {
+export default async function DetailPage(params) {
   console.log(params.params.slug)
   return (
     <div>

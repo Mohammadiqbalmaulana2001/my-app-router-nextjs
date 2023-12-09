@@ -3,13 +3,15 @@ import {NextResponse, NextRequest} from "next/server"
 const data = [
     {
         id: 1,
-        name: "Product 1",
-        price: 10000
+        title: "Sepstu baru",
+        price: 10000,
+        image: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1bb96f3b-ea2b-422c-ab0d-49f06c3c54ef/air-force-1-gtx-shoes-l3ck9t.png"
     },
     {
         id: 2,
-        name: "Product 2",
-        price: 10000
+        title: "Sepatu lama",
+        price: 10000,
+        image: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1bb96f3b-ea2b-422c-ab0d-49f06c3c54ef/air-force-1-gtx-shoes-l3ck9t.png"
     }
 ]
 export async function GET(request : NextRequest) {
