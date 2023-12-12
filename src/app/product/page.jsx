@@ -7,7 +7,6 @@ async function getData() {
       cache: "force-cache",
       next: {
         tags: ["products"],
-        // revalidate: 10
       }
     })
     const data = await res.json()
